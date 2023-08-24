@@ -1,0 +1,26 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+.signin-container {
+    background-color: #eeeded;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.signup-container {
+    background-color: #eeeded;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+button, input {
+    border-radius: .4rem;
+    border: 1px solid gray;
+    background: #f9f9f9;
+    transition: .2s;
+}
+.signin-container input:hover {
+    background: rgb(198, 245, 215);
+}
+.signup-container input:hover {
+    background: rgb(198, 229, 245);
+}
